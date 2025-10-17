@@ -1,58 +1,35 @@
 ---
 title: Component Selection Example
----
-
-## Examples
-
-### Style 1
-
-> This is the example found in the assignment, uses more html
-
-*Table 1: Example component selection*
-
-**External Clock Module**
-
-| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
-
 ### Style 2
 
-> Also acceptable, more markdown friendly
+**Audio Amplifier Module**
 
-**External Clock Module**
+1. NCP2809BDMR2G surface mount Integrated Circuits (ICs)
 
-1. XC1259TR-ND surface mount crystal
-
-    ![](image1.png)
+    ![](p3.png)
 
     * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * [link to product](https://www.digikey.com/short/07j43d31)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | Low power consumption suitable for battery| Limited output power for large speakers                          |
+    | clean audio alerts                        | Requires external capacitors for optimal performance             |
+    | Small footprint fits compact PCB designs  | 
 
-1. CTX936TR-ND surface mount oscillator
-
-    ![](image3.png)
+1. TPA4411RTJR surface mount Integrated Circuits (ICs)
+   
+    ![](P2.png)
 
     * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+    * [Link to product](https://www.digikey.com/short/p25b5w03)
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
+    | clear mono audio output with low distortion                       | More expensive      |
+    | Built-in shutdown mode to save power when idle                    | Requires PCB layout for noise reduction|
+    | small speaker in water detection system                           | 
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+**Choice:** Option 1: NCP2809BDMR2G surface mount Integrated Circuits (ICs)
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:** The NCP2809BDMR2G is a low-power stereo audio amplifier we use in the water detector to boost the alert sound from a sensor signal, ensuring a clear and audible warning when water is detected and can save up power ensuring it will keep up the alarm until someone comes.
