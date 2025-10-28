@@ -4,9 +4,9 @@ title: Component Selection Example
 
 **Audio Amplifier Module**
 
-1. NCP2809BDMR2G surface mount Integrated Circuits (ICs)
+1. LM4810MMX/NOPB surface mount Integrated Circuits (ICs)
 
-    ![](p3.png)
+    ![](P4.png)
 
     * $1/each
     * [link to product](https://www.digikey.com/short/07j43d31)
@@ -30,6 +30,6 @@ title: Component Selection Example
     | Built-in shutdown mode to save power when idle                    | Requires PCB layout for noise reduction|
     | small speaker in water detection system                           | 
 
-**Choice:** Option 1: NCP2809BDMR2G surface mount Integrated Circuits (ICs)
+**Choice:** Option 1: LM4810MMX/NOPB surface mount Integrated Circuits (ICs)
 
-**Rationale:** The NCP2809BDMR2G is a low-power stereo audio amplifier we use in the water detector to boost the alert sound from a sensor signal, ensuring a clear and audible warning when water is detected and can save up power ensuring it will keep up the alarm until someone comes.
+**Rationale:** The LM4810MMX/NOPB is a low-power stereo audio amplifier we use in the water detector to boost the alert sound from a sensor signal, ensuring a clear and audible warning when water is detected and can save up power ensuring it will keep up the alarm until someone comes.
