@@ -1,6 +1,37 @@
 ---
 title: Component Selection Example
-### Style 2
+
+**Speaker**
+
+1.  SP-1504
+   
+    ![]()
+
+    * $2/each
+    * [Link to product](https://www.digikey.com/short/f19wq4nn)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    |    Compact size fits small                            |  Lower sound output              |
+    |    Low power and compatible with small amplifiers     |  Limited frequency               |
+    |    Suitable for basic alert tones                     |  Not ideal for loud environments |
+
+2.  SP-3605
+   
+    ![]()
+
+    * $3/each
+    * [Link to product](https://www.digikey.com/short/3mwtr4zn)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    |     Louder sound output, ideal for alerts                |     Slightly larger size       |
+    |     Wider frequency response for clearer audio           |     Higher power consumption   |
+    |     Durable and reliable for long-term use               | 
+
+**Choice:** Option 1: SP-1504 
+
+**Rationale:** The SP-1504 was chosen because it meets the project’s need for a compact, low-power speaker that can clearly produce alert sounds when water is detected. Its small form factor makes it easy to integrate into the enclosure, and it works efficiently with the chosen amplifier (NCP2809BDMR2G) without requiring additional power circuitry.
 
 **Audio Amplifier Module**
 
@@ -17,7 +48,7 @@ title: Component Selection Example
     | clean audio alerts                        | Requires external capacitors for optimal performance             |
     | Small footprint fits compact PCB designs  | 
 
-1. TPA4411RTJR surface mount Integrated Circuits (ICs)
+2. TPA4411RTJR surface mount Integrated Circuits (ICs)
    
     ![](P2.png)
 
