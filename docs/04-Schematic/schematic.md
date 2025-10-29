@@ -17,4 +17,4 @@ The schematic ensures that the system operates reliably by providing stable +5V 
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](schematic.pdf), and the Zip folder of the project [*here*](SCH.zip).
+The schematic as a PDF download is available [*here*](Schematic2.pdf), and the Zip folder of the project [*here*](SCH.zip).
