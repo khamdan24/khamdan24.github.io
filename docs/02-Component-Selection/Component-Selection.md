@@ -31,7 +31,8 @@ title: Component Selection Example
 
 **Choice:** Option 1: SP-1504 
 
-**Rationale:** The SP-1504 was chosen because it meets the project’s need for a compact, low-power speaker that can clearly produce alert sounds when water is detected. Its small form factor makes it easy to integrate into the enclosure, and it works efficiently with the chosen amplifier (NCP2809BDMR2G) without requiring additional power circuitry.
+**Rationale:** The SP-1504 was chosen because it meets the project’s need for a compact, low-power speaker that can clearly produce alert sounds when water is detected. Its small form factor makes it easy to integrate into the enclosure, and it works efficiently with the chosen amplifier without requiring additional power circuitry.
+
 
 **Audio Amplifier Module**
 
