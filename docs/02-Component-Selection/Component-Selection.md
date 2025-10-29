@@ -40,7 +40,7 @@ title: Component Selection Example
     ![](P4.png)
 
     * $1/each
-    * [link to product](https://www.digikey.com/short/07j43d31)
+    * [link to product](https://www.digikey.com/short/b15vb9vr)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
