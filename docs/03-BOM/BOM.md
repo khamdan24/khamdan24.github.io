@@ -8,9 +8,7 @@ tags:
 ## Overview
 Components required for assembling the water detection system's audio alert module. The component selection process involves choosing the LM4810MMX/NOPB stereo audio amplifier for its optimal balance of performance, cost, and power efficiency, which is critical for a reliable and long-lasting water alert system. The table below provides a list of the primary integrated circuits, including quantity, cost, manufacturer part numbers, and relevant links for procurement and technical documentation. This structured format ensures all necessary information is readily accessible for sourcing, assembly, and circuit design integration.
 
-## Bill of Materials Example (as Table)
-
-*Table ##: An example of one approach to adding your BOM table to this section.*
+## Bill of Materials
 
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
