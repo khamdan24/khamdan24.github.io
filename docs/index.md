@@ -7,12 +7,10 @@ tags:
 <center>
 <font size= "6">(Khalid Hamdan) Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name: Water Detector </font><br>
+<font size= "8"> Project Name: Water Detector System </font><br>
 for<br>
 <font size= "5"> Team 208 </font><br>
 
-**Submission: Oct, 29, 2025**
-</center>
 
 ## Introduction
 
