@@ -19,3 +19,5 @@ The audio amplifier boosts the signal from the microcontroller to drive the spea
 ## Example Block Diagram 
 
 ![Example of Indivial Block diagram ](K-block-diagram.png).
+
+![Example of Indivial Block diagram ](Copy_of_kblockdigram.drawio.png)
