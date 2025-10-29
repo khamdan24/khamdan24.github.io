@@ -5,7 +5,7 @@ title: Component Selection Example
 
 1.  SP-1504
    
-    ![]()
+    ![](S1.png)
 
     * $2/each
     * [Link to product](https://www.digikey.com/short/f19wq4nn)
@@ -18,7 +18,7 @@ title: Component Selection Example
 
 2.  SP-3605
    
-    ![]()
+    ![](S2.png)
 
     * $3/each
     * [Link to product](https://www.digikey.com/short/3mwtr4zn)
