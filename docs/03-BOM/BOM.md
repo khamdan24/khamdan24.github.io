@@ -13,4 +13,4 @@ Components required for assembling the water detection system's audio alert modu
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
 IC AMP CLSS AB STER 105MW 8VSSOP |1 | $0.76 | $0.76 | Texas Instruments | LM4810MMX/NOPB | [DigiKey](https://www.digikey.com/short/b15vb9vr) | [Datasheet link](https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm4810) | U1
-SPEAKER 8OHM 800MW TOP PORT 93DB |1 | $2.25 | $2.25 | Soberton Inc. | SP-1504 | [Digikey](https://www.digikey.com/short/qj12zwtf) | [Datashee link](https://www.soberton.com/wp-content/uploads/2018/07/SP-1504-June-2018.pdf) | C1 R1
+SPEAKER 8OHM 800MW TOP PORT 93DB |1 | $2.25 | $2.25 | Soberton Inc. | SP-1504 | [Digikey](https://www.digikey.com/short/19mz4j04) | [Datashee link](https://www.soberton.com/wp-content/uploads/2018/07/SP-1504-June-2018.pdf) | C1 R1
