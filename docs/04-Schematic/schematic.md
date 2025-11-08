@@ -8,9 +8,9 @@ This schematic is design to support .... (highlight functionally, power, and con
 
 
 ![schematic](SCP.png)
-**Figure ##:** schematic.
+**Figure 1:** schematic.
 
-## Resouces
+## Resouce for Schematic
 
 The schematic as a PDF download is available [*here*](SCH.pdf), and the Zip folder of the project [*here*](Subsystem-PCB-Design.zip).
 
@@ -18,9 +18,9 @@ The schematic as a PDF download is available [*here*](SCH.pdf), and the Zip fold
 ### PCB
 ## Overview
 ![schematic](PCB.png)
-**Figure ##:** PCB.
+**Figure 2:** PCB.
 
 
-## Resouces
+## Resouces for PCB
 
 The PCB as a PDF download is available [*here*](PCB.pdf), and the Zip folder of the project [*here*](Subsystem-PCB-Design.zip).
