@@ -9,11 +9,13 @@ The schematic ensures that the system operates reliably by providing stable +5V 
 
 
 ![schematic](Schematic.png)
-**Figure 1:** Preview Schematic
+**Figure 1:** old Schematic
 
 ![schematic](Schematic2.png)
-**Figure 2:** latest Schematic
+**Figure 2:** previwes Schematic
 
+![schematic](HW2.png)
+**Figure 3:** latest Schematic
 
 ## Resouces
 
