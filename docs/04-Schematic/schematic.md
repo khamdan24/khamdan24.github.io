@@ -15,11 +15,11 @@ The schematic ensures that the system operates reliably by providing stable +5V 
 ![schematic](HW2.png)
 **Figure 2:** previwes Schematic
 
-
+## PCB
 ![schematic](PCB.png)
 
 **Figure 3:** PCB design
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](Schematic2.pdf), and the Zip folder of the project [*here*](SCH.zip).
+The schematic as a PDF download is available [*here*](HW2.pdf) and the PCB [*here*](HW2.pdf), and the Zip folder of the project [*here*](SCH.zip).
