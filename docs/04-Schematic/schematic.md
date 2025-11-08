@@ -8,14 +8,17 @@ This schematic is designed to support the audio alert section of the Water Detec
 The schematic ensures that the system operates reliably by providing stable +5V power and clean audio output through the speaker. The microcontroller processes signals from the sensors (water, pressure, humidity) and activates the audio amplifier and LED indicator when thresholds are exceeded.
 
 
-![schematic](Schematic.png)
+![schematic](Schematic2.png)
 **Figure 1:** old Schematic
 
-![schematic](Schematic2.png)
-**Figure 2:** previwes Schematic
 
 ![schematic](HW2.png)
-**Figure 3:** latest Schematic
+**Figure 2:** previwes Schematic
+
+
+![schematic](PCB.png)
+
+**Figure 3:** PCB design
 
 ## Resouces
 
