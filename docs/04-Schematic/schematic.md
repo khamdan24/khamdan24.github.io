@@ -18,6 +18,7 @@ The schematic as a PDF download is available [*here*](SCH.pdf), and the Zip fold
 ### PCB
 ## Overview
 ![schematic](PCB.png)
+
 **Figure 2:** PCB.
 
 
