@@ -3,24 +3,12 @@ title: Schematic
 ---
 ### Schematic
 ## Overview
-This schematic is designed to support the audio alert section of the Water Detection System. It integrates power regulation, signal amplification, and visual indication using a PIC18F57Q10 microcontroller, LM4810 audio amplifier, and a 5V regulated power supply.
-The schematic ensures that the system operates reliably by providing stable +5V power and clean audio output through the speaker. The microcontroller processes signals from the sensors (water, pressure, humidity) and activates the audio amplifier and LED indicator when thresholds are exceeded.
+This schematic provides the core alert functionality for the Water Detection System. It integrates power regulation, microcontroller-based tone generation, and visual indication using a PIC18F57Q84 microcontroller and a simple piezoelectric or magnetic speaker. The system operates from a stable +5V supply. The microcontroller processes sensor inputs and generates an audible alert directly via a GPIO pin, driving a small speaker through a current-limiting resistor and optional transistor for louder volume.
 
 
-![schematic](SCP.png)
+![schematic](HW2-1.png)
 **Figure 1:** schematic.
 
 ## Resouce for Schematic
 
-The schematic as a PDF download is available [*here*](SCH.pdf), and the Zip folder of the project [*here*](Subsystem-PCB-Design.zip).
-
-
-### PCB
-![schematic](PCB.png)
-
-**Figure 2:** PCB.
-
-
-## Resouces for PCB
-
-The PCB as a PDF download is available [*here*](PCB.pdf), and the Zip folder of the project [*here*](Subsystem-PCB-Design.zip).
+The schematic as a PDF download is available [*here*](HW2.pdf), and the Zip folder of the project [*here*](Subsystem-PCB-Design.zip).
