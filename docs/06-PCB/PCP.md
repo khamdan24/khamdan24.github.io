@@ -16,4 +16,4 @@ I designed a blueprint and printed a PCB for my speaker project. It came out pre
 
 ## Resouce for PCB
 
-The schematic as a PDF download is available [*here*](), and the Zip folder of the project [*here*](PCB.zip).
+The PCB as a PDF download is available [*here*](), and the Zip folder of the project [*here*](PCB.zip).
