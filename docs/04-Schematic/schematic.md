@@ -11,4 +11,4 @@ This schematic provides the core alert functionality for the Water Detection Sys
 
 ## Resouce for Schematic
 
-The schematic as a PDF download is available [*here*](HW2.pdf), and the Zip folder of the project [*here*](Subsystem-PCB-Design.zip).
+The schematic as a PDF download is available [*here*](HW2.pdf), and the Zip folder of the project [*here*](SC.zip).
