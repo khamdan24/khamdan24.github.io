@@ -3,14 +3,14 @@ title: PCB
 ---
 ### PCB
 ## Overview
-
+I designed a blueprint and printed a PCB for my speaker project. It came out pretty well, but there was a mistake in the measurements, so it didn’t fit correctly. Because of that, I ended up using a breadboard instead. 
 
 
 ![PCB](PCBs.png)
 
 **Figure 1:** PCB.
 
-![PCB printed](PCB-printed)
+![PCB printed](PCBprinted.png)
 
 **Figure 2:** PCB printed.
 
