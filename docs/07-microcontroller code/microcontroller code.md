@@ -4,7 +4,10 @@ title: Individal Microcontroller
 ## Overview
 
 
+## code test
 
+
+## final code
 
 ## Example Microcontroller 
 
@@ -12,6 +15,9 @@ title: Individal Microcontroller
 ![Example of the Microcontroller ](projectpng/breadboard2.png).
 **Figure 1:** 
 
-![Example Microcontroller ](projectpng/.png)
+## Example Microcontroller Function
+![Example Microcontroller Function ](projectpng/LED1.png)
+![Example Microcontroller Function ](projectpng/LED2.png)
+![Example Microcontroller Function ](projectpng/LED3.png)
 
 **Figure 2:** 
