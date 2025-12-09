@@ -1,7 +1,6 @@
 ---
 title: PCB
 ---
-### PCB
 ## Overview
 I designed a front only blueprint and printed a PCB for my speaker project. It came out pretty well, but there was a mistake in the measurements, so it didn’t fit correctly. Because of that, I ended up using a breadboard instead. 
 
