@@ -10,9 +10,14 @@ I designed a front only blueprint and printed a PCB for my speaker project. It c
 
 **Figure 1:** PCB.
 
+![PCB front](frontpcb.png)
+![PCB back](backpcb.png)
+
+**Figure 2:** PCB front and back.
+
 ![PCB printed](PCBprinted.png)
 
-**Figure 2:** PCB printed.
+**Figure 3:** PCB printed.
 
 ## Resouce for PCB
 
