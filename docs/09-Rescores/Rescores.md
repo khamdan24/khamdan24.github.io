@@ -1,4 +1,6 @@
-
+---
+title: Rescores
+---
 
 # Code Testing
 We started by just testing the lights and making sure they worked along the speaker. We made each light turn on one at a time for the given seconds in a repeating cycle. This proved the hardware was connected correctly.
