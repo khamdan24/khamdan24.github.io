@@ -1,9 +1,5 @@
 ---
 title: Individal Block Diagram
-tags:
-- tag1
-- tag2
----
 
 ## Overview
 
@@ -22,6 +18,6 @@ The audio amplifier boosts the signal from the microcontroller to drive the spea
 
 **Figure 1:** previews Block
 
-![Example of Indivial Block diagram ](NEW.png)
+![Example of Indivial Block diagram ](KhalidBD.png)
 
-**Figure 2:** latest Block
+**Figure 2:** final Block
