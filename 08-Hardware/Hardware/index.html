@@ -26,7 +26,7 @@
 
     
       
-        <title>Hardware - EGR 304 Data Sheet Template</title>
+        <title>Hardware V2.0 - EGR 304 Data Sheet Template</title>
       
     
     
@@ -89,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -120,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hardware
+              Hardware V2.0
             
           </span>
         </div>
@@ -901,15 +906,61 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Hardware V2.0
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Hardware
+    Hardware V2.0
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proposed-improvements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Proposed Improvements
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1043,6 +1094,32 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proposed-improvements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Proposed Improvements
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1064,7 +1141,43 @@
   
 
 
-  <h1>Hardware</h1>
+  <h1>Hardware V2.0</h1>
+
+<h2 id="overview">Overview</h2>
+<p>If we were to design a second version of this hardware, several improvements could be made to increase reliability, usability, and performance. These changes are based on lessons learned during prototyping and testing.</p>
+<h2 id="proposed-improvements">Proposed Improvements</h2>
+<ol>
+<li>Revised PCB Layout
+In V1, the PCB had measurement errors that prevented proper fitting into the enclosure. V2 would include:</li>
+<li>Accurate dimension checks before manufacturing</li>
+<li>Mounting holes aligned with the enclosure</li>
+<li>
+<p>Better labeling of components for easier assembly</p>
+</li>
+<li>
+<p>Improved Audio Output
+The current speaker works for small rooms but may not be loud enough for noisy environments. V2 could:</p>
+</li>
+<li>Use a higher-power amplifier (like TPA4411) for louder sound</li>
+<li>Include volume control via a potentiometer</li>
+<li>
+<p>Add a small baffle or resonator in the enclosure to improve sound projection</p>
+</li>
+<li>
+<p>Visual Alert Enhancements</p>
+</li>
+<li>Use multi-color LEDs to show different alarm types (red for water, yellow for humidity, etc.)</li>
+<li>Add a flashing pattern for better visibility</li>
+<li>
+<p>Include a small LCD or OLED screen to display sensor status messages</p>
+</li>
+<li>
+<p>Connector Standardization</p>
+</li>
+<li>Replace loose wire connections with standardized connectors (JST, header pins)</li>
+<li>This would make assembly faster and reduce wiring mistakes</li>
+</ol>
+<p>These updates would make the system more reliable in real-world conditions, easier to install, and more effective at getting the user’s attention during an emergency.</p>
 
 
 
@@ -1072,7 +1185,8 @@
 
 
 
-
+  
+  
 
 
 
