@@ -10,3 +10,9 @@ In the final code the system constantly checks all three sensors at the same tim
 * Watches for pressure issues and turns on a LED3 light with the speaker
 * Alerts the speaker on as long as ANY sensor has a problem
 * Turns everything off when all sensors are back to normal
+
+![Test Code](.png).
+**Figure 1:** 
+
+![Code](.png).
+**Figure 2:** 
