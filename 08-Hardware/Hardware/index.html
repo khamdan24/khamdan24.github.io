@@ -940,6 +940,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#title-resource" class="md-nav__link">
+    <span class="md-ellipsis">
+      title: Resource
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code Testing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Code
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1075,6 +1102,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#title-resource" class="md-nav__link">
+    <span class="md-ellipsis">
+      title: Resource
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code Testing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Code
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1097,8 +1151,6 @@
   
   
 
-
-  <h1>Hardware V2.0</h1>
 
 <h2 id="overview">Overview</h2>
 <p>If we were to design a second version of this hardware, several improvements could be made to increase reliability, usability, and performance. These changes are based on lessons learned during prototyping and testing.</p>
@@ -1135,6 +1187,22 @@ The current speaker works for small rooms but may not be loud enough for noisy e
 <li>This would make assembly faster and reduce wiring mistakes</li>
 </ol>
 <p>These updates would make the system more reliable in real-world conditions, easier to install, and more effective at getting the user’s attention during an emergency.</p>
+<hr>
+<h2 id="title-resource">title: Resource</h2>
+<h1 id="code-testing">Code Testing</h1>
+<p>We started by just testing the lights and making sure they worked along the speaker. We made each light turn on one at a time for the given seconds in a repeating cycle. This proved the hardware was connected correctly.</p>
+<h1 id="final-code">Final Code</h1>
+<p>In the final code the system constantly checks all three sensors at the same time. The code now properly:
+* Watches for water leaks and turns on a LED1 light with the speaker
+* Watches for humidity problems and turns on a LED2 light with the speaker
+* Watches for pressure issues and turns on a LED3 light with the speaker
+* Alerts the speaker on as long as ANY sensor has a problem
+* Turns everything off when all sensors are back to normal</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../testcode.png" data-desc-position="bottom"><img alt="Test Code" src="../testcode.png"></a>.</p>
+<p><strong>Figure 1:</strong> </p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../code1.png" data-desc-position="bottom"><img alt="Code1" src="../code1.png"></a>.
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../code2.png" data-desc-position="bottom"><img alt="Code2" src="../code2.png"></a>.</p>
+<p><strong>Figure 2:</strong> </p>
 
 
 
