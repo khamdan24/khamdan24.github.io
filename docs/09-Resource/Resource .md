@@ -11,8 +11,13 @@ In the final code the system constantly checks all three sensors at the same tim
 * Alerts the speaker on as long as ANY sensor has a problem
 * Turns everything off when all sensors are back to normal
 
-![Test Code](.png).
+
+![Test Code](testcode.png).
+
 **Figure 1:** 
 
-![Code](.png).
+
+![Code1](code1.png).
+![Code2](code2.png).
+
 **Figure 2:** 
